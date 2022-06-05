@@ -1,0 +1,43 @@
+.login{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+.login form {
+    background-color: #FFE6E6;
+    border: 1px solid #e3e3e3;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: Source Sans Pro;
+    left: 35%;
+    padding: 48px;
+    position: relative;
+    text-align: left;
+    top: 0;
+    height: 492px;
+    width: 400px;
+    
+}
+.login form h1{
+    color: #89C9B8;
+
+}
+.login form input {
+    width: 300px;
+}
+
+.login form button {
+   margin-left: 100px;
+    width: 100px;
+    height: 40px;
+    background-color: #E3CAA5;
+    color: white;
+
+}
+
+.login form button:hover{
+    background-color: #89C9B8;
+    color: black;
+ 
+}
