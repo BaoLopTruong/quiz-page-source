@@ -1,39 +1,56 @@
 .signup{
-    background-color: #C6DCE4;
+    /* background-color: #C6DCE4; */
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
 }
-form {
-    /* background-color: #DAEAF1; */
+.signup form {
+    /* background-color: #DAEAF1;
     text-align: center;
-    /* width: 300px;
-    height: 400px; */
+    width: 300px;
+    height: 400px;
     left: 38%;
     top: 100px;
-    /* position: absolute; */
-   /* border: 2px solid black; */
+    position: absolute;
+   border: 1px solid black;
+   border-radius: 10px; */
+   background-color: #FFE6E6;
+   border: 1px solid #e3e3e3;
+   border-radius: 16px;
+   box-sizing: border-box;
+   font-family: Source Sans Pro;
+   left: 35%;
+   padding: 48px;
+   position: relative;
+   text-align: left;
+   margin-top: 50px;
+   height: 500px;
+   width: 400px;
 }
-form h1 {
-    color:  white;
+.signup form h1 {
+    color:  #89C9B8;
     
 }
-form h1:hover{
+.signup form h1:hover{
     color: black;
 }
 
-form button {
+.signup form button {
     background-color: #DAEAF1;
+    margin-left: 95px;
     width: 100px;
     height: 40px;
     border: 2px solid whitesmoke;
 }
-form button:hover{
+.signup form button:hover{
     background-color: #FFE6E6;
 }
 
 .custom-input input{
-    background-color: #F2D1D1;
-    width: 200px;
-    height: 20px;
+    background-color: white;
+    width: 300px;
     border:  2px solid whitesmoke;
 }

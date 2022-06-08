@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import './login.css';
-import {Link} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom'
 export default function Login() {
-
+    const navigate = useNavigate();
     const MESSAGE_ERROR = {
         email: 'Email error',
         password: 'Password error'
@@ -32,6 +32,9 @@ export default function Login() {
         console.log(form);
     })
 
+    function login(){
+        navigate("/")
+    }
 
     return (
         <div className='login'>
@@ -58,7 +61,7 @@ export default function Login() {
               
 
                 <div>
-                    <button>Login</button>
+                    <button onClick={login}>Login</button>
                 </div>
             </form>
         </div>
