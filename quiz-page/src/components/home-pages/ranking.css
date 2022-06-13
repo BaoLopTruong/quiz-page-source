@@ -1,0 +1,54 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .ranking{
+    position: absolute;
+    margin-right: 5%;
+    margin-left: 60%;
+  }
+
+  .ranking-container{
+   width: 400px;
+   height: 100px;
+   border: 1px solid black;
+   border-radius:  10px;
+  
+  }
+
+
+
+  .ranking-container table thead {
+    display: block;
+  
+  }
+  .ranking-container table thead th{
+    color: red;
+  }
+  .ranking-container table tbody {
+    height: 150px;
+    /* display: block; */
+    overflow: auto;
+  }
+
+  .ranking-container table tbody tr td {
+    margin-left: 50px;
+  }
+  
+  

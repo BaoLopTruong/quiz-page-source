@@ -24,6 +24,18 @@ ul {
 .nav-account{
     float: right;
 }
+.nav-notic {
+  float: right;
+  color: white;
+  position: relative;
+}
+.nav-notic i {
+  display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 .nav-content {
     display: none;
     position: absolute;

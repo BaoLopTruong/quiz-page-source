@@ -5,6 +5,8 @@ import './components/login-pages/signup.css'
 
 import Login from './components/login-pages/Login'
 import SignUp from "./components/login-pages/SignUp"
+import DashBoard from "./components/dashboard/dashboard";
+
 export default function App(){
   return(
     <BrowserRouter>
@@ -13,6 +15,8 @@ export default function App(){
        
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/signup' element={<SignUp/>}></Route>
+        <Route path='/admin' element={<DashBoard/>}></Route>
+       
 
       </Routes>
     </BrowserRouter>
